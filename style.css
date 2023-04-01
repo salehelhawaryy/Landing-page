@@ -91,8 +91,12 @@ a {
     display: flex;
     gap: 70px;
     justify-content: center;
+    padding: 15px;
 }
 
+.collage {
+    padding: 50px;
+}
 
 .coll {
     flex-wrap: wrap;
@@ -114,3 +118,99 @@ a {
     font-size: 18px;
     flex: 0 1 auto;
 }
+
+.quote {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #E5E7EB;
+    padding : 20px;
+}
+
+.quote .one {
+    padding-bottom: 0%;
+    margin-bottom: 0%;
+}
+
+ .quote .one, .quote .two {
+    width: 600px;
+    
+} 
+
+.two {
+    display: flex;
+    
+    align-items: self-end;
+    margin-top: 0%;
+    padding: 0%;
+}
+
+.name {
+    padding: 0%;
+    margin-left: auto;
+    font-size: 24px;
+    font-weight: 700;
+    margin-top: 0%;
+}
+
+.quote .one .first  {
+    font-family: "Light Italic";
+   font-size: 36px;
+   color: #1F2937;
+   font-style:italic;
+   align-items: center;
+   margin-bottom: 0%;
+}
+
+.reg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px;
+}
+
+.info {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 1000px;
+    background-color: #3882F6;
+    border-radius: 10px;
+    padding: 30px;
+}
+
+#left1 > h2 {
+  color: #F9FAF8;
+  font-weight: 1000px;
+}
+
+#left1 > p {
+    color:#E5E7EB;
+    font-size: 20px;
+}
+
+#right1 > button {
+    width: 150px;
+    height: 40px;
+    background-color: transparent;
+    border: 3px solid #E5E7EB;
+    border-radius: 10px;
+    color: #F9FAF8;
+    font-weight: 700;
+    font-size: 20px;
+} 
+
+.final {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    background-color: #1F2937;
+}
+
+.final > p {
+    font-size: 30px;
+    color: #E5E7EB;
+}
+
